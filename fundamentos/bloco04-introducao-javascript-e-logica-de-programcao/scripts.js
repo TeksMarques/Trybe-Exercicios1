@@ -107,11 +107,11 @@ if (nota < 0 || nota > 100) {
 
 //item 8
 
-const num1 = 1;
-const num2 = 5;
-const num3 = 7;
+const num7 = 1;
+const num8 = 5;
+const num9 = 7;
 
-if (num1 % 2 === 0 || num2 % 2 === 0|| num3 % 2 === 0){
+if (num7 % 2 === 0 || num8 % 2 === 0 || num9 % 2 === 0){
     console.log('true');
 }else{
     console.log('false');
@@ -119,11 +119,11 @@ if (num1 % 2 === 0 || num2 % 2 === 0|| num3 % 2 === 0){
 
 //item 9
 
-const a = 4;
-const b = 5;
-const c = 8;
+const g = 4;
+const h = 5;
+const i = 8;
 
-if ( a % 2 === 1|| b % 2 === 1 || c % 2 === 1) {
+if ( g % 2 === 1 || h % 2 === 1 || i % 2 === 1) {
     console.log('true');
 }else{
     console.log('false');
