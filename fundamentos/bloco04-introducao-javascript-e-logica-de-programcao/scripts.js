@@ -129,4 +129,21 @@ if ( g % 2 === 1 || h % 2 === 1 || i % 2 === 1) {
     console.log('false');
 }
 
+// item 10
+
+const valorDeVenda = 13.00;
+const custoDoProduto = 5.00;
+
+let custoTotal = custoDoProduto * 1.20;
+let lucro = valorDeVenda - custoTotal;
+
+if (valorDeVenda >= 0 && custoDoProduto >= 0) {
+      console.log(lucro * 1000);
+    
+} else {
+    console.log('erro inesperado');
+}
+
+// item 11
+
 
