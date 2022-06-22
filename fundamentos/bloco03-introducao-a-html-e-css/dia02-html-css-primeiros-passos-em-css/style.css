@@ -1,0 +1,40 @@
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    text-decoration: overline;
+}
+
+ul {
+    background-color: black;
+    color: white;
+    line-height: 40px;
+    list-style-type: circle;
+}
+
+.list-p-style {
+    background-color: aquamarine;
+    font-style: italic;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+}
+
+#item1 {
+    background-color: pink;
+}
+
+#item2 {
+    background-color: blueviolet;
+}
+
+#item3 {
+    background-color: blue;
+}
