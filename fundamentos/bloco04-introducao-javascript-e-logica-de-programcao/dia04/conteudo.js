@@ -51,3 +51,48 @@ let names = {
   for ( let key in car) {
     console.log(car)
   }
+
+// funções
+
+// estrutura da função
+
+function nomeDaFundacao(param1, param2) {
+    // codigo que irá fazer alguma coisa
+    //param = paramentros - se usa quando precisa agregar valor de fora p dentro da função 
+    // se finaliza com uma resposto: return
+    // podemos declarar variaveis dentro da função
+
+    return resultado;
+}
+// OBS: todo o projeto vai ser desenvolvido com function
+// decompor uma string e gerar um array com suas palavras
+let arquivoTexto = 'Rodrigo Fabiana Arthur Teresa Petala';
+let arrayNomes = arquivoTexto.split(' ');
+// usar pesquisa sobre manipulação de string: o comando split
+console.log(arrayNomes);
+
+// transformando array em string e uso do for/of
+let novaString = '';
+
+for(let nome of arrayNomes){
+    novaString += nome + '%'
+}
+console.log(novaString)
+// o maior numero
+
+let numeros = [3, 7, 13, 9, 100, 45, 123, 3];
+
+let maiorNumero = Math.max.apply(null, numeros);
+
+console.log(maiorNumero);
+
+//uso do for/of p percorer array 
+
+for ( numero of numeros){
+    console.log(numero * 3);
+}
+
+// uso do for/of na string
+
+
+
