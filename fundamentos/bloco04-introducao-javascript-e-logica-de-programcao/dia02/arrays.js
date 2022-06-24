@@ -31,6 +31,6 @@ for (let index = 0; index < pizzas.length; index+=1) {
 }
 
 let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
-let menuServices = ;
 
-console.log(menuServices);
+console.log(menu[1]);
+menu.push('Contato');

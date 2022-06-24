@@ -1,0 +1,31 @@
+1 - abrir guarda roupa
+2 - escolher roupa
+3 - colocar em cima da cama
+4 - fechar guarda roupa
+5 - vestir a roupa
+6 - pegar sandalia
+7 - colocar a sandalia
+8 - abrir porta do quarto
+9 - sair do quarto 
+10 - fechar a porta do quarto
+11 - abri porta de casa
+12 - sair de casa
+13 - fechar a porta de casa
+14 - ir para a festa 
+
+// item 1
+
+1 adicionar o array numbers
+2 criar um loof que percorra o array
+3 imprimir resultados 
+
+// item 2
+
+1 adiconar o array numbers
+2 criar uma variavel de valor 0 para soma
+3 criar um loop p percorrer o array
+4 incrementar a variavel com o valor correpondente a cada loop
+5 imiprimir resultado da soma
+
+// item 3
+
