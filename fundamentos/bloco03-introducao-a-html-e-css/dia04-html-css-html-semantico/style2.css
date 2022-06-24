@@ -1,0 +1,10 @@
+.lista {
+    display: inline-block;
+    margin: 50px;
+}
+
+.image {
+    float: right;
+    width: 200px;
+
+}
