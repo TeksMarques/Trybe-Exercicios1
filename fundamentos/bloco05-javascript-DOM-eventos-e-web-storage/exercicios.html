@@ -97,17 +97,19 @@
       //item 8
       let part8 = document.createElement('ul');
       part6.appendChild(part8);
-
+        const numeros = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+        'Sete', 'Oito', 'Nove', 'Dez']
+        
       function itens(numeroli) {
-        for( index = 1; index <= numeroli; index +=1 ) {
+        for( num in numeros ) {
             let adicionarItem = document.createElement('li');
-            adicionarItem.innerText = index;
+            adicionarItem.innerText = numeros[num];
             part8.appendChild(adicionarItem)
         }
         
       }
       itens(10)
-
+      
       // item 9
       let part9 = document.createElement('div');
       part2.appendChild(part9);
@@ -150,7 +152,7 @@
       let remover = document.getElementsByTagName('ul')[0];
       remover.lastChild.remove();
       remover.lastChild.remove();
-           
+
       </script>
   </body>
 </html>
