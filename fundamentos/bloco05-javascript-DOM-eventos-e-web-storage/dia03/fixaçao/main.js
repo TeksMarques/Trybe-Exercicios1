@@ -50,7 +50,7 @@ myWebpage.addEventListener('mouseover', function(){
 })
 
 myWebpage.addEventListener('mouseleave', function(){
-    myWebpage.style.color = 'white'
+    myWebpage.style.color = 'unset'
 })
 
 // Segue abaixo um exemplo do uso de event.target:
