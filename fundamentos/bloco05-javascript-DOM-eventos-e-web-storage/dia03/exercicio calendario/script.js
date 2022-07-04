@@ -42,3 +42,13 @@ function diasDoCalen() {
     }
 }
 diasDoCalen()
+
+function botaoFeriado(nomeBotao) {
+    let buttonContainer = document.querySelector('.buttons-container');
+    let novoBotao = document.createElement('button');
+    novoBotao.id = 'btn-holiday'
+    novoBotao.innerHTML = nomeBotao
+    buttonContainer.appendChild(novoBotao);
+}
+
+botaoFeriado('Feriados')
