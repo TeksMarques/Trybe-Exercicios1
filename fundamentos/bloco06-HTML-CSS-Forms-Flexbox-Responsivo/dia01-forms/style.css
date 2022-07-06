@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(129, 185, 129);
+    width: 70%;
+    margin: 20px auto;
+    color: white;
+}
+
+fieldset {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.form-container input {
+    border: 2px solid rgb(180, 177, 177);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.line-container {
+    margin: 20px;
+    border: 0 none;
+    
+}
+.line-container p {
+    padding-bottom: 10px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Concurso TrybeTrip</h1>
+    </header>
+    <main>
+        <form action="" method="get">
+            <section class="form-container">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div class="line-container">
+                        <label for="nome-completo">Nome:</label>
+                        <input type="text" name="nome-completo" id="nome-completo" placeholder="Digite seu nome" minlength="10" maxlength="40">
+                    </div>
+                
+                    <div class="line-container">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu email" minlength="10" maxlength="50">
+                    </div>
+                </fieldset>
+                    <div class="line-container">
+                        <p>Qual você gosta mais?</p>
+                        <input type="radio" id="local-1" name="locais" value="praias">
+                        <label for="local-1">Praias</label>
+                        <input type="radio" name="locais" id="local-2" value="montanhas">
+                        <label for="local-2">Montanhas</label>
+                        <input type="radio" name="locais" id="local-3" value="cidade">
+                        <label for="local-3">Cidades</label>
+                        <input type="radio" name="locais" id="local-4" value="campo">
+                        <label for="local-4">Campo</label>
+                    </div>
+                    <div>
+                        <label for="">Resumo</label>
+                        <textarea name="resumo" id="resumo" cols="30" rows="10"></textarea>
+                    </div>
+
+                
+                
+            </section>
+        </form>
+    </main>
+
+</body>
+</html>
