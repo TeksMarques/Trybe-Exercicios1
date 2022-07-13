@@ -1,0 +1,38 @@
+div:hover {
+    background-color: red;
+    transition: 0.2s;
+}
+
+:nth-child(3) {
+   color: blue;
+   font-family: monospace;
+}
+
+:nth-child(4) {
+    color: green;
+    font-size: larger;
+}
+
+:nth-child(5) {
+    color: rgb(161, 61, 78);
+    margin: 15px;
+    padding: 15px;
+    font-size: 30px;
+    
+}
+
+:nth-child(6) {
+    color: black;
+    font-size: 45px;
+
+}
+
+:nth-child(7) {
+    color: lightblue;
+    text-shadow: gray 0.1em 0.1em;
+    font-size: 30px;
+}
+
+div:nth-child(2n+1) {
+    font-style: italic;
+}
