@@ -1,4 +1,4 @@
-const order = {
+/* const order = {
     name: 'Rafael Andrade',
     phoneNumber: '11-98763-1416',
     address: {
@@ -62,5 +62,77 @@ const orderModifier = (order) => {
 }
 
 orderModifier(order);
+ */
 
 
+// parte 3
+
+const lesson1 = {
+    materia: 'Matemática',
+    numeroEstudantes: 20,
+    professor: 'Maria Clara',
+    turno: 'manhã',
+  };
+  
+  const lesson2 = {
+    materia: 'História',
+    numeroEstudantes: 20,
+    professor: 'Carlos',
+  };
+  
+  const lesson3 = {
+    materia: 'Matemática',
+    numeroEstudantes: 10,
+    professor: 'Maria Clara',
+    turno: 'noite',
+  };
+
+  const adicionandoTurno = (objeto, chave, valor) => {
+    objeto[chave] = valor
+  }
+
+  adicionandoTurno(lesson2, 'turno', 'noite');
+  console.log(lesson2)
+
+  const listaObj = (objeto) => Object.keys(objeto);
+  
+  console.log(listaObj(lesson1))
+
+  const tamanhoObj = (objeto) => Object.keys(objeto).length;
+
+  console.log(tamanhoObj(lesson1));
+
+  const valoresObj = (objeto) => Object.values(objeto);
+
+  console.log(valoresObj(lesson1));
+
+  const allLessons = Object.assign({}, {lesson1, lesson2, lesson3});
+  console.log(allLessons);
+
+  const numeroTotalDeAlunos = (objeto) => {
+    let total = 0;
+
+    const array = Object.keys(objeto);
+
+    for (index in array) {
+        total += objeto[array[index]].numeroEstudantes;
+    }
+    return total;
+  }
+  console.log(numeroTotalDeAlunos(allLessons))
+
+  const valorDoNumero = (obj, number) => Object.values(obj)[number];
+
+  console.log(valorDoNumero(lesson1, 2));
+
+  const verificaParDeChaves = (obj, chave, valor) => {
+    const arr = Object.entries(obj);
+    let isEqual = false;
+    for (index in arr) {
+        if (arr[index][0] === chave && arr[index][1] === valor) {            
+        }
+    }
+    return isEqual
+  };
+
+  console.log(verificaParDeChaves(lesson2,'professor','Carlos'));
